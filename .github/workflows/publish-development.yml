@@ -31,7 +31,7 @@ jobs:
                         - name: Build
                           run: rojo build -o ./${{ github.event.repository.name }}-${{ github.ref_name }}.rbxm release.project.json
 
-                        - uses: actions/upload-artifact@v4.3.3
+                        - uses: actions/upload-artifact@v4.6.2
                           with:
                                   name: ${{github.event.repository.name}}-${{ github.ref_name }}.rbxm
                                   path: ${{github.event.repository.name}}-${{ github.ref_name }}.rbxm
