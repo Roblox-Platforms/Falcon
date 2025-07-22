@@ -8,7 +8,7 @@
 	"author": "ninjaninja140 <88348015+ninjaninja140@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "rbxtsc",
+		"build": "rbxtsc && cp LICENCE.luau build/LICENCE.luau",
 		"watch": "rbxtsc -w",
 		"update": "yarn upgrade-interactive"
 	},

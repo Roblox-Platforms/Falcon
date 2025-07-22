@@ -2,9 +2,9 @@
 
     MIT License
 
-    Copyright (c) 2025 ninjaninja140 (https://github.com/ninjaninja140), 
-    Armodia Systems, jaDevelopment, Bracketed Softworks, Roblox-Platforms, 
-    and the relevant communities.
+    Copyright (c) 2025 ninjaninja140 (https://github.com/ninjaninja140),
+    Armodia Systems, jaDevelopment, Bracketed Softworks, Roblox-Platforms,
+    the relevant communities and the Falcon Contributors and Community.
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -26,4 +26,4 @@
 
 --]]
 
-return;
+return {}

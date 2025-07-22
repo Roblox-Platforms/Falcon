@@ -1,20 +1,25 @@
 {
-	"name": "@roplatforms/falcon",
+	"name": "Falcon",
 	"globIgnorePaths": ["**/package.json", "**/tsconfig.json"],
 	"tree": {
-		"$path": "build",
-		"LICENSE": {
-			"$path": "LICENSE.luau"
-		},
-		"include": {
-			"$path": "include",
-			"node_modules": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"Falcon:Development": {
 				"$className": "Folder",
-				"@rbxts": {
-					"$path": "node_modules/@rbxts"
+				"FalconModule": {
+					"$path": "build",
+					"include": {
+						"$path": "include",
+						"node_modules": {
+							"$className": "Folder",
+							"@rbxts": {
+								"$path": "node_modules/@rbxts"
+							}
+						}
+					}
 				}
 			}
 		}
 	}
 }
-
