@@ -1,0 +1,95 @@
+[*.lua]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.luau]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.ts]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.js]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.tsx]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.jsx]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.mts]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.mjs]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.cts]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.cjs]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.json]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.toml]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.yml]
+end_of_line = crlf
+
+[*.md]
+end_of_line = crlf
+
+[*.rbxmx]
+end_of_line = crlf
+
+[*.txt]
+end_of_line = crlf
+
+[*.bat]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+[*.sh]
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+end_of_line = crlf

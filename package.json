@@ -1,0 +1,36 @@
+{
+	"name": "@roblox-platforms/falcon",
+	"packageManager": "yarn@4.9.2",
+	"version": "1.0.0",
+	"private": true,
+	"main": "index.js",
+	"repository": "https://github.com/Roblox-Platforms/Falcon",
+	"author": "ninjaninja140 <88348015+ninjaninja140@users.noreply.github.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"update": "yarn upgrade-interactive"
+	},
+	"prettier": "@bracketed/prettier-configuration",
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@bracketed/prettier-configuration": "^1.0.1",
+		"@isentinel/dict-rbxts": "^1.0.1",
+		"@rbxts/atlas": "^1.1.4",
+		"@rbxts/compiler-types": "^3.0.0-types.0",
+		"@rbxts/make": "^1.0.6",
+		"@rbxts/pretty-react-hooks": "^0.6.4",
+		"@rbxts/react": "^17.2.3",
+		"@rbxts/react-roblox": "^17.2.3",
+		"@rbxts/services": "^1.5.5",
+		"@rbxts/t": "^3.2.1",
+		"@rbxts/types": "^1.0.864",
+		"@rbxts/ui-scaler": "^0.2.1",
+		"rbxts-asset-sync": "^0.2.0",
+		"roblox-ts": "^3.0.0"
+	}
+}
