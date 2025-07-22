@@ -1,0 +1,15 @@
+{
+	"name": "ExampleProject",
+	"tree": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"ExampleProject": {
+				"$className": "Folder",
+				"MainModule": {
+					"$path": "source"
+				}
+			}
+		}
+	}
+}
