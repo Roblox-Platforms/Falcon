@@ -3,18 +3,23 @@
 	"packageManager": "yarn@4.9.2",
 	"version": "1.0.0",
 	"private": true,
-	"main": "index.js",
 	"repository": "https://github.com/Roblox-Platforms/Falcon",
 	"author": "ninjaninja140 <88348015+ninjaninja140@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "rbxtsc && cp LICENCE.luau build/LICENCE.luau",
+		"build": "rbxtsc",
 		"watch": "rbxtsc -w",
-		"update": "yarn upgrade-interactive"
+		"update": "yarn upgrade-interactive",
+		"generate:licence": "tsx scripts/licence.mts"
 	},
 	"prettier": "@bracketed/prettier-configuration",
 	"devDependencies": {
+		"@types/node": "^24.1.0",
+		"chalk": "^5.4.1",
+		"log-symbols": "^7.0.1",
+		"ora": "^8.2.0",
 		"prettier": "^3.6.2",
+		"tsx": "^4.20.3",
 		"typescript": "^5.8.3"
 	},
 	"dependencies": {

@@ -5,7 +5,7 @@
 		"jsx": "react",
 		"jsxFactory": "React.createElement",
 		"jsxFragmentFactory": "React.Fragment",
-		"module": "commonjs",
+		"module": "CommonJS",
 		"moduleResolution": "Node",
 		"noLib": true,
 		"resolveJsonModule": true,
@@ -21,6 +21,7 @@
 		"baseUrl": "src",
 		"incremental": true,
 		"tsBuildInfoFile": "build/tsconfig.tsbuildinfo"
-	}
+	},
+	"include": ["src"],
+	"exclude": ["scripts", "node_modules"]
 }
-

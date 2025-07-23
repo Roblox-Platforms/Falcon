@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"outDir": "../dist",
+		"rootDir": ".",
+		"esModuleInterop": true,
+		"strict": true,
+		"moduleResolution": "NodeNext",
+		"resolveJsonModule": true,
+		"types": ["@types/node"]
+	},
+	"include": ["."]
+}
