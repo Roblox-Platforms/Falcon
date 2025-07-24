@@ -7,10 +7,11 @@
 	"author": "ninjaninja140 <88348015+ninjaninja140@users.noreply.github.com>",
 	"license": "MIT",
 	"scripts": {
-		"build": "rbxtsc",
+		"build": "rbxtsc && yarn postbuild",
 		"watch": "rbxtsc -w",
 		"update": "yarn upgrade-interactive",
-		"generate:licence": "tsx scripts/licence.mts"
+		"generate:licence": "tsx scripts/licence.mts",
+		"postbuild": "yarn generate:licence"
 	},
 	"prettier": "@bracketed/prettier-configuration",
 	"devDependencies": {
